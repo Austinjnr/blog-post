@@ -1,10 +1,13 @@
+import { useState } from "react"; 
+
 const Home = () => {
 
-    let paragraph = 'Working like a sicko this morning I puked on laundry';
+    const [paragraph, setParagraph] = useState('My name is Ian Conner');
 
 
     const handleClick = () => {
-        paragraph = 'My name is Ian Conner';
+        
+        setParagraph('Working like a sicko this morning I puked on laundry');
     }
 
     return (  
