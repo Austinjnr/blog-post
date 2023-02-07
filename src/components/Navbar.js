@@ -1,12 +1,13 @@
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <h1>The Sicko Blog</h1>
+            <img src="https://res.cloudinary.com/apideck/image/upload/v1615417853/icons/nike.jpg" alt="nike logo"></img>
+            <h1>Nike</h1>
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/create" style= {{
                     color: 'white',
-                    backgroundColor: '#d26b6b',
+                    backgroundColor: '#000000d3',
                     borderRadius: '8px'
                 }}>New Blog</a>
             </div>
