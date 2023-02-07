@@ -16,9 +16,14 @@ const Home = () => {
         {title:'NIKE AIR MAX PENNY 1',body:'',author:'',id:10}  
     ]);
 
+    const handleDelete = (id) =>{
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+
     return (  
         <div className="home">
-          <BlogList blogs={blogs} />
+          <BlogList blogs={blogs} title= "Nike Top Sneakers" handleDelete = {handleDelete} />
         </div>
     );
 }

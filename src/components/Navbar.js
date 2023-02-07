@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <img src="https://res.cloudinary.com/apideck/image/upload/v1615417853/icons/nike.jpg" alt="nike logo"></img>
+           {/*<img src="https://res.cloudinary.com/apideck/image/upload/v1615417853/icons/nike.jpg" alt="nike logo"></img>*/}
             <h1>Nike</h1>
             <div className="links">
                 <a href="/">Home</a>
