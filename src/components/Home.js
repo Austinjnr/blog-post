@@ -1,4 +1,4 @@
-import { useState } from "react"; 
+import { useState, useEffect } from "react"; 
 import BlogList from "./Bloglist";
 
 const Home = () => {
